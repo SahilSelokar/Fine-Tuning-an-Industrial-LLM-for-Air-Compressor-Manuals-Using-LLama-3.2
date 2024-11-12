@@ -8,7 +8,7 @@ API_URL = "https://api-inference.huggingface.co/models/your-username/fine_tuned_
 
 # Function to query the model
 def query_model(question):
-    headers = {"Authorization": "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"}
+    headers = {"Authorization": "Access Token"}
     payload = {
         "inputs": question,
     }
